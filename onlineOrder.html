@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>KOMEWAZA</title>
+  <link rel="stylesheet" href="style_for_onlineOrder.css">
+</head>
+
+<body>
+  <header>
+    <div id=intro>
+      <div class=logo_div><a href="restaurant.html"><img class=logo src="logo.png"></a></div>
+      <div class=button_wrapper>
+        <div class=buttons><button id=menu1><a href="restaurant.html">Home</a></button></div>
+        <div class=buttons><button id=menu2><a href="catering.html">Catering</a></button></div>
+        <div class=buttons><button id=menu3><a href="menus.html">Menus</a></button></span>
+          <div class=buttons><button id=menu4><a href="onlineOrder.html">Online Orders</a></button></div>
+          <div class=buttons><button id=menu5><a href="delivery.html">Delivery Options</a></button></div>
+        </div>
+      </div>
+  </header>
+
+  <main>
+    <div id=main>
+      <aside id=left_bar>
+        <div id="menu_button_set">Menu Financial District (FiDi)</div>
+        <div id="menu_button_wrapper">
+          <div id="menu_button">Signature Poke</div>
+        </div>
+      </aside>
+      <div id=menu>
+        <div class=title>MENU FINANCIAL DISTRICT (FIDI)</div>
+        <div class=title_explain>Place your order online for in-store pickup and skip the lines!<br> Orders accepted
+          until 15 minutes prior to closing.</div>
+        <hr width=300 size=1 color="black">
+        <div class=menu_cate>SIGNATURE POKE</div>
+
+        <div class=title_photo></div>
+
+        <!-- menu_1 -->
+
+        <div id=menu_1>
+          <div id="menu_1_photo"></div>
+          <div id="menu_name">White Soy Avocado Cream Bowl</div>
+          <div id="menu_exp">Seared tuna over 8-grain brown rice with mixed greens, hijiki quinoa, white soy avocado
+            cream sauce, sesame seeds, garlic chips, kizami nori,...</div>
+          <div id="menu_dollar">$14</div>
+        </div>
+
+        <hr width=480 size=1 color="black">
+
+        <!-- menu_2 -->
+
+        <div id=menu_2>
+          <div id="menu_2_photo"></div>
+          <div id="menu_name">Extra Spicy Mayo Bowl</div>
+          <div id="menu_exp">Tuna and Salmon over 8-grain brown rice with mixed greens, hijiki quinoa, pineapple,
+            edamame, tomato, cucumber, spicy mayo sauce, Kani salad, and onion ...</div>
+          <div id="menu_dollar">$13</div>
+        </div>
+
+        <hr width=480 size=1 color="black">
+
+        <!-- menu_3 -->
+
+        <div id=menu_3>
+          <div id="menu_3_photo"></div>
+          <div id="menu_name">Kome Waza Sampler Bowl</div>
+          <div id="menu_exp">Tuna, Salmon, Hamachi, Octopus, Shrimp, Scallop and Ikura over sushi rice with tamago,
+            pickled ginger, seasonal pickles, and kizami nori...</div>
+          <div id="menu_dollar">$17</div>
+        </div>
+
+        <hr width=480 size=1 color="black">
+
+        <!-- menu_4 -->
+
+        <div id=menu_4>
+          <div id="menu_4_photo"></div>
+          <div id="menu_name">Pomegranate Citrus Spice Bowl</div>
+          <div id="menu_exp">Salmon over sushi rice with mixed greens, tomato, sweet onion, cucumber, edamame,
+            pomegranate...</div>
+          <div id="menu_dollar">$13</div>
+        </div>
+
+        <hr width=480 size=1 color="black">
+
+        <!-- menu_5 -->
+
+        <div id=menu_5>
+          <div id="menu_5_photo"></div>
+          <div id="menu_name">Hatcho Miso Tofu Bowl (Vegan)</div>
+          <div id="menu_exp">Tofu over sushi rice with mixed greens, hijiki quinoa, seaweed mix, hatcho miso glaze,
+            radish sprouts,...</div>
+          <div id="menu_dollar">$12</div>
+        </div>
+
+        <hr width=480 size=1 color="black">
+
+        <!-- menu_6 -->
+
+        <div id=menu_6>
+          <div id="menu_6_photo"></div>
+          <div id="menu_name">Wasabi Cashew Tako Bowl</div>
+          <div id="menu_exp">Octopus, scallops, and shrimp over kale cold noodles with mixed greens, hijiki quinoa,
+            tomato, wasabi cashew sauce, ogo seaweed, rice pop,...</div>
+          <div id="menu_dollar">$14</div>
+        </div>
+      </div>
+
+      <!-- right bar -->
+
+      <aside id=right_bar>
+        <div id="myOrder">
+          <span id="left">My Order</span>
+          <span id="right">(0 items)</span>
+        </div>
+        <div id="selected_menu">
+          <div id="selected_list">
+            <div id="selected_list_1">
+
+            </div>
+          </div>
+          <div id="selected_menu_exp">
+            Browse our menu and start adding items to your order
+          </div>
+        </div>
+        <hr width=220 size=3 color=black>
+        <div id="summary">
+          <div id="summary_box">
+            <span id="left">Subtotal</span>
+            <span id="right">$0</span>
+          </div>
+          <div id="summary_box">
+            <span id="left">Tax</span>
+            <span id="right">$0</span>
+          </div>
+        </div>
+        <button id="order_button">OREDR NOW</button>
+      </aside>
+    </div>
+  </main>
+
+  <!-- modal for menu -->
+
+  <div id=modal_1>
+    <div id="modal_1_part_1">
+      <div id=modal_1_photo></div>
+      <div id="modal_1_title">White Soy Avocado Cream Bowl</div>
+      <div id="modal_1_dollar">$14</div>
+      <div id="modal_1_exp">Seared tuna over 8-grain brown rice with mixed greens, hijiki quinoa, white soy avocado
+        cream sauce, sesame seeds, garlic chips, kizami nori, tobiko, and Japanese salsa *No substitutions for signature
+        bowls</div>
+    </div>
+    <div id="modal_1_part_2">
+      <div id="additional_option">description about food...</div>
+      <div id="quantity_wrapper">
+        <div id="quantity_wrapper_upper">
+          <div id="quantity">Quantity</div>
+          <div id="number_wrapper">
+            <button id=number_down>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+            <div id=number>1</div>
+            <button id=number_up>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+                <line y1="8" y2="16" x1="12" x2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <button id="modal_order">+ ADD TO MY ORDER</button>
+      </div>
+    </div>
+    <button class="close">X</button>
+  </div>
+
+  <div id=modal_2>
+    <div id="modal_1_part_1">
+      <div id=modal_2_photo></div>
+      <div id="modal_1_title">Extra Spicy Mayo Bowl</div>
+      <div id="modal_1_dollar">$14</div>
+      <div id="modal_1_exp">Tuna and Salmon over 8-grain brown rice with mixed greens, hijiki quinoa, pineapple,
+        edamame, tomato, cucumber, spicy mayo sauce, Kani salad, and onion ...</div>
+    </div>
+    <div id="modal_1_part_2">
+      <div id="additional_option">description about food...</div>
+      <div id="quantity_wrapper">
+        <div id="quantity_wrapper_upper">
+          <div id="quantity">Quantity</div>
+          <div id="number_wrapper">
+            <button id=number_down>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+            <div id=number>1</div>
+            <button id=number_up>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+                <line y1="8" y2="16" x1="12" x2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <button id="modal_order">+ ADD TO MY ORDER</button>
+      </div>
+    </div>
+    <button class="close">X</button>
+  </div>
+
+  <div id=modal_3>
+    <div id="modal_1_part_1">
+      <div id=modal_3_photo></div>
+      <div id="modal_1_title">Kome Waza Sampler Bowl</div>
+      <div id="modal_1_dollar">$14</div>
+      <div id="modal_1_exp">Seared tuna over 8-grain brown rice with mixed greens, hijiki quinoa, white soy avocado
+        cream sauce, sesame seeds, garlic chips, kizami nori, tobiko, and Japanese salsa *No substitutions for signature
+        bowls</div>
+    </div>
+    <div id="modal_1_part_2">
+      <div id="additional_option">description about food...</div>
+      <div id="quantity_wrapper">
+        <div id="quantity_wrapper_upper">
+          <div id="quantity">Quantity</div>
+          <div id="number_wrapper">
+            <button id=number_down>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+            <div id=number>1</div>
+            <button id=number_up>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+                <line y1="8" y2="16" x1="12" x2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <button id="modal_order">+ ADD TO MY ORDER</button>
+      </div>
+    </div>
+    <button class="close">X</button>
+  </div>
+
+  <div id=modal_4>
+    <div id="modal_1_part_1">
+      <div id=modal_4_photo></div>
+      <div id="modal_1_title">Pomegranate Citrus Spice Bowl</div>
+      <div id="modal_1_dollar">$14</div>
+      <div id="modal_1_exp">Salmon over sushi rice with mixed greens, tomato, sweet onion, cucumber, edamame,
+        pomegranate...</div>
+    </div>
+    <div id="modal_1_part_2">
+      <div id="additional_option">description about food...</div>
+      <div id="quantity_wrapper">
+        <div id="quantity_wrapper_upper">
+          <div id="quantity">Quantity</div>
+          <div id="number_wrapper">
+            <button id=number_down>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+            <div id=number>1</div>
+            <button id=number_up>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+                <line y1="8" y2="16" x1="12" x2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <button id="modal_order">+ ADD TO MY ORDER</button>
+      </div>
+    </div>
+    <button class="close">X</button>
+  </div>
+
+  <div id=modal_5>
+    <div id="modal_1_part_1">
+      <div id=modal_5_photo></div>
+      <div id="modal_1_title">>Hatcho Miso Tofu Bowl (Vegan)</div>
+      <div id="modal_1_dollar">$14</div>
+      <div id="modal_1_exp">Tofu over sushi rice with mixed greens, hijiki quinoa, seaweed mix, hatcho miso glaze,
+        radish sprouts,...</div>
+    </div>
+    <div id="modal_1_part_2">
+      <div id="additional_option">description about food...</div>
+      <div id="quantity_wrapper">
+        <div id="quantity_wrapper_upper">
+          <div id="quantity">Quantity</div>
+          <div id="number_wrapper">
+            <button id=number_down>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+            <div id=number>1</div>
+            <button id=number_up>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+                <line y1="8" y2="16" x1="12" x2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <button id="modal_order">+ ADD TO MY ORDER</button>
+      </div>
+    </div>
+    <button class="close">X</button>
+  </div>
+
+  <div id=modal_6>
+    <div id="modal_1_part_1">
+      <div id=modal_6_photo></div>
+      <div id="modal_1_title">Wasabi Cashew Tako Bowl</div>
+      <div id="modal_1_dollar">$14</div>
+      <div id="modal_1_exp">Octopus, scallops, and shrimp over kale cold noodles with mixed greens, hijiki quinoa,
+        tomato, wasabi cashew sauce, ogo seaweed, rice pop,...</div>
+    </div>
+    <div id="modal_1_part_2">
+      <div id="additional_option">description about food...</div>
+      <div id="quantity_wrapper">
+        <div id="quantity_wrapper_upper">
+          <div id="quantity">Quantity</div>
+          <div id="number_wrapper">
+            <button id=number_down>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+            <div id=number>1</div>
+            <button id=number_up>
+              <svg width="24" height="24">
+                <circle cx="12" cy="12" r="10" stroke="red" stroke-width="2" fill="transparent" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="red" stroke-width="2"></line>
+                <line y1="8" y2="16" x1="12" x2="12" stroke="red" stroke-width="2"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <button id="modal_order">+ ADD TO MY ORDER</button>
+      </div>
+    </div>
+    <button class="close">X</button>
+
+  </div>
+
+  <script type="text/javascript" src="onlineOrder.js"></script>
+
+</body>
+
+</html>

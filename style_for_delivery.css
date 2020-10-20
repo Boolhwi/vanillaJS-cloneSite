@@ -1,0 +1,129 @@
+body, html {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+#intro {
+	width: 100%;
+	height: 80px;
+	position: fixed;
+
+	z-index: 1;
+	background-color: white;
+}
+
+#intro .logo_div {
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 15px;
+	left: 130px;
+}
+
+#intro .button_wrapper {
+	width: 1000px;
+	height: 80px;
+	position: absolute;
+
+	left: 400px;
+	top: 30px;
+}
+
+#menu1, #menu2, #menu3, #menu4, #menu5 {
+	border: none;
+	background-color: white;
+	color: gray;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.buttons {
+	display: inline-block;
+}
+
+#main {
+	margin-top: 150px;
+	width: 100%;
+	height: 420px;
+	position: absolute;
+	text-align: center;
+}
+
+#del_exp {
+	width: 485px;
+	margin: auto;
+	font-size: 20px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+#company_wrapper {
+	width: 1000px;
+	margin: 40px auto;
+
+}
+
+.company {
+	width: 300px;
+	height: 200px;
+	display: inline-block;
+	margin: 5px 10px;
+}
+
+.company_1 {
+	width: 266px;
+	height: 56px;
+	background-image: url(Company/komewaza.jpg);
+	cursor: pointer;
+	margin: 72px auto;
+}
+
+.company_2 {
+	width: 146px;
+	height: 41px;
+	background-image: url(Company/caviar.jpg);
+	cursor: pointer;
+	margin: 79px auto;
+}
+
+.company_3 {
+	width: 250px;
+	height: 111px;
+	background-image: url(Company/mealpal.jpg);
+	cursor: pointer;
+	margin: 44px auto;
+}
+
+.company_4 {
+	width: 319px;
+	height: 164px;
+	background-image: url(Company/ubereats.jpg);
+	cursor: pointer;
+	margin: 18px auto;
+}
+
+.company_5 {
+	width: 183px;
+	height: 98px;
+	background-image: url(Company/amazon.jpg);
+	cursor: pointer;
+	margin: 51px auto;
+}
+
+.company_6 {
+	width: 188px;
+	height: 93px;
+	background-image: url(Company/seamless.jpg);
+	cursor: pointer;
+	margin: 53px auto;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
