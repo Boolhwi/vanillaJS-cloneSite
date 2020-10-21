@@ -4,6 +4,4 @@ After finishing this project, I could feel the needs of JS library ( REACT ),
 because there were so many repetitive components and wasted code.   
 These things made it difficult to progress code.   
 
-Link
-
-<https://clonesite.netlify.app>
+Link : <https://clonesite.netlify.app>
